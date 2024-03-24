@@ -8,7 +8,7 @@ all_articles = []
 liked_articles = []
 not_liked_articles = []
 
-with open('path/to/articles.csv', 'r') as file:
+with open('articles.csv', 'r') as file:
     csv_reader = csv.reader(file)
     headers = next(csv_reader)  
     headers[0] = 'id'  
